@@ -1,5 +1,4 @@
 FROM python:3.8.10
-COPY . .
 WORKDIR /code
 COPY . .
 RUN pip3 install -r requirements.txt
