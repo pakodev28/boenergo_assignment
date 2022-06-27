@@ -1,0 +1,9 @@
+{% if answer.is_correct == True %}
+<h1>Ура!Мы угадали.</h1>
+{% else %}
+<h1>Упс!К сожалению мы не угадали.</h1>
+{% endif %}
+
+<h3>Вы загадали номер - {{ answer.guessed_index_number }}</h3>
+<h3>Мы решили, что это - {{ answer.guessed_answer }}</h3>
+<h3>На смом деле там - {{ right_color }}</h3>

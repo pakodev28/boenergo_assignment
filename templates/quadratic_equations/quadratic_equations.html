@@ -1,0 +1,6 @@
+<h2>Для решения квадратного уравнения <i>a * x^2 + b * x + c = 0</i> введите:</h2>
+<form method="post" action="">
+    {% csrf_token %}
+    {{ form }}
+    <input type="submit" value="Submit">
+</form>
