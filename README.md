@@ -48,4 +48,8 @@
     
    Эндпоинт для решения квадратных уравнений ->
    
+<<<<<<< HEAD
     http://localhost/quadratic_equations/find_quadratic_equation_roots/
+=======
+    http://localhost/quadratic_equations/find_quadratic_equation_roots/
+>>>>>>> 53c19204163c00a1cb4d43206ebc2ad72439b7d8
